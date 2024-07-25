@@ -86,7 +86,8 @@ npm run prod
 
 ## 문제 해결
 
-[자주 발생할 수 있는 문제와 해결 방법 설명]
+.env를 최상위폴더(COOKNETWORK)에 넣지 않을 경우 에러 발생
+.env.local 사용시 gitHUB에 올라가지 않습니다. // require('dotenv').config({ path: '.env.local' }) 사용
 
 ## 기여 방법
 

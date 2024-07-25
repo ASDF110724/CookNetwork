@@ -15,6 +15,5 @@ router.post('/', async(req,res)=>{
         console.error(error);
     }
     
-
 })
 module.exports = router;

@@ -17,5 +17,9 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^6.5.1"
+  },
+  "dependencies": {
+    "express-session": "^1.18.0",
+    "morgan": "^1.10.0"
   }
 }
